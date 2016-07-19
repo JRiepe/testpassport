@@ -68,9 +68,37 @@ module.exports = function(app){
 		});
 	});
 
+	app.get('/page2', function(req, res){
+		res.render('page2', {
+			//welcomeText: "Sign Up",
+			//actionBtn: 'signup',
+			//otherAction: "Signin"
+		});
+	});
 
+	app.get('/page3', function(req, res){
+		res.render('page3', {
+			//welcomeText: "Sign Up",
+			//actionBtn: 'signup',
+			//otherAction: "Signin"
+		});
+	});
 
+	app.get('/page4', function(req, res){
+		res.render('page4', {
+			//welcomeText: "Sign Up",
+			//actionBtn: 'signup',
+			//otherAction: "Signin"
+		});
+	});
 
+	app.get('/page5', function(req, res){
+		res.render('page5', {
+			//welcomeText: "Sign Up",
+			//actionBtn: 'signup',
+			//otherAction: "Signin"
+		});
+	});
 
 
 
